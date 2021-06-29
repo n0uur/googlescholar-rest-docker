@@ -6,7 +6,7 @@ import datetime
 import json
 
 from scholarly import scholarly, ProxyGenerator
-from encoders import ScholarlyEncoder
+from .encoders import ScholarlyEncoder
 from flask import Flask
 
 pg = ProxyGenerator()
